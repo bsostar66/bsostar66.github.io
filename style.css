@@ -170,3 +170,24 @@ footer {
         font-size: 20px;
     }
 }
+
+.skill-category h3 {
+    color: #F07845;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-list span {
+    background-color: #252830;
+    border: 1px solid #383B44;
+    padding: 7px 14px;
+    border-radius: 6px;
+    color: #F2EDE7;
+    font-size: 15px;
+}
