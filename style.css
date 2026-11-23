@@ -1,0 +1,172 @@
+
+/* GENERAL SETTINGS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #17191F;
+    color: #F2EDE7;
+    line-height: 1.7;
+}
+
+/* NAVIGATION */
+
+header {
+    background-color: #1E2027;
+    border-bottom: 1px solid #30323A;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #F2EDE7;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #F07845;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #F2EDE7;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #F07845;
+}
+
+/* HOME SECTION */
+
+#home {
+    max-width: 1100px;
+    margin: auto;
+    padding: 140px 20px;
+}
+
+.intro {
+    color: #F07845;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#home h1 {
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+#home h1 span {
+    color: #F07845;
+}
+
+#home h2 {
+    color: #B9B5B0;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#home p:not(.intro) {
+    color: #B9B5B0;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+/* BUTTON */
+
+.button {
+    display: inline-block;
+    background-color: #F07845;
+    color: #17191F;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #FF9566;
+}
+
+/* GENERAL SECTIONS */
+
+section:not(#home) {
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 20px;
+    border-top: 1px solid #30323A;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #B9B5B0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1E2027;
+    border-top: 1px solid #30323A;
+    text-align: center;
+    padding: 25px;
+    color: #B9B5B0;
+    font-size: 14px;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 650px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #home {
+        padding: 90px 20px;
+    }
+
+    #home h1 {
+        font-size: 36px;
+    }
+
+    #home h2 {
+        font-size: 20px;
+    }
+}
