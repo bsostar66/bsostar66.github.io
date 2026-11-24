@@ -287,10 +287,11 @@ footer {
 }
 
 
+
 /* PROJECT GITHUB LINKS */
 .project-link {
-    display: inline-block;
-    margin-top: 22px;
+    display: block;
+    margin-top: 35px;
     color: #F07845;
     text-decoration: none;
     font-size: 14px;
