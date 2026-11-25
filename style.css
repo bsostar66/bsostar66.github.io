@@ -303,3 +303,13 @@ footer {
     color: #F2EDE7;
 }
 
+/* MOBILE NAVIGATION - SECTION SCROLL OFFSET */
+@media (max-width: 750px) {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    section {
+        scroll-margin-top: 90px;
+    }
+}
