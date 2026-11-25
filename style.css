@@ -313,3 +313,14 @@ footer {
         scroll-margin-top: 90px;
     }
 }
+
+/* CONTACT SECTION LINK */
+#contact a {
+    color: #F07845;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #F2EDE7;
+}
